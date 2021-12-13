@@ -1,0 +1,431 @@
+.aboutMeView {
+  height: 1300px;
+  background-color: var(--navyBlue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  #aboutMeTitle {
+    font-size: 5em;
+    text-align: center;
+    padding-top: 40px;
+    margin-block-start: 0;
+  }
+
+  #aboutMeContents {
+    padding: 0 10%;
+  }
+
+  .aboutMeTopContents {
+    display: flex;
+    align-items: center;
+  }
+
+  .aboutMeTopText {
+    max-width: 400px;
+  }
+
+  .aboutMeTopPicture {
+    padding-left: 120px;
+  }
+
+  #aboutMeText {
+    margin-right: 10vw;
+  }
+
+  #aboutMeText h2 {
+    margin: 0;
+    text-align: left;
+    font-family: var(--fontMono);
+  }
+
+  .aboutMeP {
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 1.1em;
+  }
+
+  #mePhoto {
+    height: 250px;
+    width: 250px;
+    box-shadow: 15px 15px var(--orange);
+  }
+
+  #mePhoto:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+  }
+
+  #workDiv {
+    padding-top: 5%;
+  }
+
+  #workDiv h2 {
+    font-family: var(--fontMono);
+  }
+
+  .aboutButtons {
+    position: relative;
+    list-style: none;
+  }
+
+  .aboutButton {
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: var(--darkerGrey);
+    font-size: 1em;
+    font-family: var(--fontMono);
+    background-color: var(--navyBlue);
+    cursor: pointer;
+  }
+
+  .aboutButton:hover {
+    font-size: 1.1em;
+    color: var(--orange);
+    transition-duration: 0.1s;
+  }
+
+  .workExpDiv {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 850px;
+    padding: 0px 20px;
+    margin-left: 100px;
+    font-family: var(--fontMono);
+    font-weight: 400;
+  }
+
+    .workExpTitle {
+      margin-top: 0px;
+    }
+
+    .workBullets {
+      max-width: 700px;
+    }
+
+    .workBullet {
+      padding: 3px;
+    }
+
+
+    @media screen and (max-width: 1100px) {
+
+      .workExpDiv {
+        width: 550px;
+        left: 50px;
+      }
+
+    }
+
+    @media screen and (max-width: 850px) {
+
+      .aboutMeView {
+        height: 1500px;
+      }
+
+      .aboutMeTopContents {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+
+      .aboutMeTopPicture {
+        padding-left: 0px;
+        padding-bottom: 20px;
+      }
+
+      .aboutButtons {
+        display: flex;
+        padding: 0px;
+      }
+
+      .workExpDiv {
+        top: 50px;
+        left: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 500px;
+      }
+      
+    }
+
+    @media screen and (max-width: 650px) {
+
+      .workExpDiv {
+        width: 400px;
+      }
+
+      #mePhoto {
+        transform: scale(0.8);
+      }
+
+      #mePhoto:hover {
+        transform: scale(0.85);
+      }
+
+    }
+
+    @media screen and (max-width: 475px) {
+
+      .aboutMeView {
+        height: 1700px;
+      }
+      .workExpDiv {
+        width: 325px;
+      }
+
+    }
+
+    @media screen and (max-width: 400px) {
+
+      .aboutMeView {
+        height: 1900px;
+      }
+      .workExpDiv {
+        width: 280px;
+      }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* @media screen and (max-width: 1060px) {
+
+      .workExpDiv {
+        width: 550px;
+      }
+
+    }
+
+    @media screen and (max-width: 900px) and (max-height: 1300px) {
+
+      .aboutMeView {
+        height: 120vh;
+        display: flex;
+        align-items: center;
+        padding: 5% 0;
+      }
+    
+      #aboutMeContents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .aboutMeTopContents {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+    
+      #workDiv {
+        align-self: flex-start;
+      }
+    
+      .aboutMeTopPicture {
+        order: 1;
+        padding-left: 0px;
+      }
+    
+      .aboutButtons {
+        display: flex;
+        padding: 0px;
+      }
+    
+      .workExpDiv {
+        top: 50px;
+        left: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 500px;
+      }
+
+    }
+
+
+
+    @media screen and (max-width: 900px) and (max-height: 1100px) {
+      
+      .aboutMeView {
+        height: 140vh;
+      }
+
+    }
+
+    @media screen and (max-width: 900px) and (max-height: 900px) {
+      
+      .aboutMeView {
+        height: 160vh;
+      }
+
+    }
+
+    @media screen and (max-width: 900px) and (max-height: 700px) {
+      
+      .aboutMeView {
+        height: 0vh;
+      }
+
+    }
+
+    @media screen and (max-height) {
+      
+    }
+
+
+
+
+    @media screen and (max-width: 570px) {
+
+      .workExpDiv {
+        width: 400px;
+      }
+
+    }
+
+    @media screen and (max-width: 450px) {
+
+      .workExpDiv {
+        width: 300px;
+      }
+
+      #mePhoto {
+        transform: scale(0.8);
+      }
+
+      #mePhoto:hover {
+        transform: scale(0.85);
+      }
+
+    } */
+
+
+
+    /* @media screen and (max-width: 1024px), screen and (max-height: 1366px) {
+
+      .aboutMeView {
+        height: 75vh;
+      }
+    }
+
+    @media screen and (max-width: 834px), screen and (max-height: 1112px) {
+
+      .aboutMeView {
+        height: 120vh;
+      }
+    }
+
+    @media screen and (max-width: 768px), screen and (max-height: 1024px) {
+
+      .aboutMeView {
+        height: 130vh;
+      }
+    }
+
+    @media screen and (max-width: 414px), screen and (max-height: 736px) {
+
+      .aboutMeView {
+        height: 200vh;
+      }
+
+      .workExpDiv {
+        width: 200p;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 1200px) {
+  
+    .aboutMeTopPicture {
+      padding-left: 5%;
+    }
+  
+    .workExpDiv {
+      width: 600px;
+    }
+    
+  }
+
+  @media screen and (max-width: 850px), screen and (max-height: 1150px) {
+    .aboutMeView {
+      display: flex;
+      align-items: center;
+      padding: 5% 0;
+    }
+  
+    #aboutMeContents {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .aboutMeTopContents {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    #workDiv {
+      align-self: flex-start;
+    }
+  
+    .aboutMeTopPicture {
+      order: 1;
+    }
+  
+    .aboutButtons {
+      display: flex;
+      padding: 0px;
+    }
+  
+    .workExpDiv {
+      top: 50px;
+      left: 0px;
+      margin-left: 0px;
+      padding-left: 0px;
+      width: 500px;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+
+  #mePhoto{
+    transform: scale(0.8);
+  }
+
+  #mePhoto:hover {
+    transform: scale(0.85);
+  }
+
+} */

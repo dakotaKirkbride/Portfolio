@@ -1,0 +1,189 @@
+
+.projectsView {
+  height: 1800px;
+  background-color: var(--navyBlue);
+
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  #projectTitle {
+    font-size: 5em;
+    /* text-align: center; */
+    padding-top: 40px;
+    margin-block-start: 0;
+  }
+
+  #projectContents {
+    height: 90%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .covidTrackProject {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 100px; */
+    /* margin-left: 250px;
+    margin-right: 250px; */
+    /* display: grid;
+    justify-content: center; */
+    /* display: flex;
+    justify-content: center;
+    padding-bottom: 10vh;
+    flex-wrap: wrap; */
+  }
+
+  #covidProjectText {
+    /* text-align: center; */
+    /* margin-top: 50px; */
+    /* display: inline; */
+    /* margin-right: 10vw; */
+    max-width: 400px;
+    /* padding-right: 10%; */
+    /* align-self: center; */
+    margin-right: 10%;
+  }
+
+  #covidGif {
+    height: 585px;
+    width: 270px;
+    box-shadow: 15px 15px var(--orange);
+    border-radius: 15px;
+    /* display: inline; */
+  }
+
+  .capAirlinesProject {
+
+    /* display: flex;
+    justify-content: center; */
+    /* flex-wrap: wrap-reverse; */
+    /* display: grid;
+    justify-content: center; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .capAirlinesProject ul {
+    /* display: flex;
+    list-style-type: none; */
+  }
+
+  #capGif {
+    /* transform: scale(0.85); */
+    box-shadow: 15px 15px var(--orange);
+    border-radius: 15px;
+    /* margin-right: 10vw; */
+    width: 600px;
+    max-width: 600px;
+    height: 494px;
+    max-height: 494px;
+  }
+
+  .capProjectText {
+    max-width: 400px;
+    /* padding-left: 10%; */
+    /* align-self: center; */
+    margin-left: 10%;
+  }
+
+  #capProjectTitle {
+    /* text-align: center; */
+  }
+
+
+@media screen and (max-width: 2000px) {
+  #projectContents {
+    width:75%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  #projectContents {
+    width:85%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  
+  .projectsView {
+    height: 1600px;
+  }
+
+
+  #capGif {
+    width: 480px;
+    height: 395px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .projectsView {
+    height: 2000px;
+  }
+
+  .covidTrackProject {
+    flex-direction: column;
+    align-items: center;
+  }  
+
+  #covidProjectText {
+    margin-right: 0;
+  }
+
+  .capAirlinesProject {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .capProjectText {
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  #capGif {
+    width: 384px;
+    height: 316px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  #covidGif {
+    width: 80%;
+    height: 80%;
+  }
+
+  #capGif {
+    width: 307px;
+    height: 253px;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+
+  #covidGif {
+    width: 80%;
+    height: 80%;
+  }
+
+  #capGif {
+    width: 276px;
+    height: 228px;
+  }
+
+}
