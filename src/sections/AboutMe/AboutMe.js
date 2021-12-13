@@ -102,7 +102,7 @@ class AboutMe extends Component {
   displayDiv2() {
     return (
       <div className='workExpDiv'>
-        <h1 className='workExpTitle'>Junior Systems Engineer at <a href='#' id='safeAutoLink'>SafeAuto</a></h1>
+        <h1 className='workExpTitle'>Junior Systems Engineer at <a href='https://safeauto.com' id='safeAutoLink'>SafeAuto</a></h1>
         <h3>May 2020 – May 2021</h3>
         <ul className='workBullets'>
           <li className='workBullet'>Helped shift the company towards full-virtualization using VMware Horizon desktop pool and server farm implementation to meet the demands of extended work-from-home</li>
@@ -116,7 +116,7 @@ class AboutMe extends Component {
   displayDiv3() {
     return (
       <div className='workExpDiv'>
-        <h1 className='workExpTitle'>IT Helpdesk Assistant at <a href='#' id='capitalLink'>Capital University</a></h1>
+        <h1 className='workExpTitle'>IT Helpdesk Assistant at <a href='https://www.capital.edu' id='capitalLink'>Capital University</a></h1>
         <h3>January 2020 – May 2020</h3>
         <ul className='workBullets'>
           <li className='workBullet'>Provided maintenance, technical support, and troubleshooting of desktop computers, printers, telephones, and other devices to ensure effective use of resources among students and faculty</li>
