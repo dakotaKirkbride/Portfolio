@@ -1,0 +1,28 @@
+
+.footer {
+  background-color: var(--otherBlue);
+  height: 80px;  
+  /* position: relative;   */
+  padding-top: 40px;
+}
+
+.footerComponents {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  font-size: .5em;
+  align-items: center;
+}
+
+.footerComponentsText {
+
+}
+
+@media screen and (max-width: 550px) {
+
+  #designedBy {
+    display: none;
+  }
+
+}
