@@ -1,6 +1,7 @@
 
 .mainView {
   height: 95vh;
+  min-height: 900px;
   background-color: var(--otherBlue);
   position: relative;
 
