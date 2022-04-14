@@ -15,7 +15,7 @@ class Main extends Component {
             <p id='helloWorld'>Hello World, </p>
             <h1 id='mainViewTitle'>I'm Dakota</h1>
             <p>
-              Computer Science Student and Incoming Backend Developer at <a href='https://www.avanade.com/en-us' id='avanadeLink'>Avanade</a>
+              Computer Science and Business Student at <a href='https://www.capital.edu' id='capitalLink'>Capital University</a>
             </p>
             <this.socialIcons/>
           </div>

@@ -26,7 +26,7 @@ class AboutMe extends Component {
               Hello! My name is Dakota, and I'm senior computer science and business student at Capital Univesity. Before coming to Capital, I had my eyes set on management or finance as potential career choices; while I'm still passionate about growing my business acumen, I've found a new passion for software engineering during my time in school. So far, I've gained a strong knowledge of many back-end development concepts using Python, C++, and C#. 
             </p>
             <p className='aboutMeP'>
-              In addition, my internship experience at both SafeAuto and Avanade have tremendously helped me to grow my knowledge of Software Development, Business Analysis, and IT support within a business context. As I move through my final year of college, I'm excited to grow my skillsets in front-end/app development and data science. Upon graduation, I will be joining Avanade as a backend developer.
+              In addition, my internship experience at both SafeAuto and Avanade have tremendously helped me to grow my knowledge of Software Development, Business Analysis, and IT support within a business context. As I move through my final year of college, I'm excited to grow my skillsets in front-end/app development and data science.
             </p>
           </div>
           <div className='aboutMeTopPicture'>

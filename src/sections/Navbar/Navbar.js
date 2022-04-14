@@ -31,13 +31,11 @@ export default class NavBar extends Component {
             className="navLogo"
             alt="Logo"
             onClick={this.scrollToTop}/>
-            {/* // onClick={this.scrolly}/> */}
 
           <div className="navBarIcon" onClick={this.handleClick}>
             <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}/>
           </div>
 
-          {/* <ul className='navItems'> */}
           <ul className={this.state.clicked ? 'navItems active': 'navItems'}>
 
             <li className='navItem'>
